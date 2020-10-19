@@ -24,8 +24,8 @@ let label = "";
 // Load the model first
 function preload() {
   classifier = ml5.imageClassifier(imageModelURL);
-  helloImage = loadImage('gesture_assets-03.png');
-  peaceImage = loadImage('gesture_assets-04.png')
+  helloImage = loadImage('img/hallo.png');
+  peaceImage = loadImage('img/peace.png')
 }
 
 function setup() {
@@ -72,7 +72,6 @@ function gotResult(error, results) {
     return;
   }
   // The results are in an array ordered by confidence.
-  console.log(results);
   label = results[0].label;
   // Classifiy again!
   classifyVideo();
