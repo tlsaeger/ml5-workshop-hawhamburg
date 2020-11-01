@@ -12,6 +12,7 @@ This example uses p5 preload function to create the classifier
 // Classifier Variable
 let classifier;
 let helloImage;
+let partyImage;
 let peaceImage;
 let imageModelURL = 'https://teachablemachine.withgoogle.com/models/QwDFOIO8g/' + 'model.json';
 
@@ -25,7 +26,8 @@ let label = "";
 function preload() {
   classifier = ml5.imageClassifier(imageModelURL);
   helloImage = loadImage('img/hallo.png');
-  peaceImage = loadImage('img/peace.png')
+  peaceImage = loadImage('img/peace.png');
+  partyImage = loadImage('img/party.png')
 }
 
 function setup() {
@@ -56,12 +58,16 @@ function classifyVideo() {
 
 function showGesture(){
   //console.log(label)
-  if(label == "Hallo"){
-    image(helloImage,0,0);
+  if(label == "Party"){
+    image(partyImage,0,0);
   }
   else if (label == "Peace"){
     image(peaceImage,0,0);
   }
+  else if(label == "Background"){
+    image(helloImage,0,0);
+  }
+
 }
 
 // When we get a result
