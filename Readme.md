@@ -3,12 +3,12 @@
 
 ## Intro 
 Im Rahmen des Kurses »Artifical Intelligence und Design > aiXdesign« beschäftigen wir uns mit der Frage, wie Künstliche Intelligenz, das Design, sowie den Beruf der Designschaffenden verändern wird. Dazu wollen wir nicht nur forschend tätig sein und schauen, was es schon gibt. Sondern auch selber mit den Möglichkeiten der Künstlichen Intelligenz im speziellen des Machine Learnings experimentieren. In insgesamt drei verschiedenen Workshops, erkunden wir unterschiedliche Tools. 
-In diesem geht es um das JavaScript Framework [ml5.js](https://ml5js.org)
+In diesem geht es um die JavaScript Library [ml5.js](https://ml5js.org)
 
 ### ml5.js 
-ml5.js ist ein JavaScript Framework, das sich zur Aufgabe gemacht hat »Friendly Machine Learning for the Web« bereitzustellen. Mit ml5 soll es kreativen Codern einfach gemacht werden, ohne viel Vorwissen Machine Learning Modelle anzusprechen, sie zu verbessern oder zu trainieren. Es sind einige Grundlagen in JavaScript nötig, die wir zu Beginn des Workshops anreißen werden. 
-ml5 basiert dabei auf einem anderem Framework mit dem Namen [p5.js](https://p5js.org), welches im Department Design schon häufig in unterschiedlichsten Projekten zum Einsatz kam. Es richtet sich ähnlich wie ml5.js an Kreative, die keine großen Vorerfahrungen mit Code haben, aber trotzdem digitale Projekte umsetzen wollen. 
-Das tolle an beiden Frameworks, ist das sie einfach direkt im Browser laufen und beide nicht viel Software brauchen. Es reicht ein Code Editor um direkt loszulegen. 
+ml5.js ist eine JavaScript Library, das sich zur Aufgabe gemacht hat »Friendly Machine Learning for the Web« bereitzustellen. Mit ml5 soll es kreativen Codern einfach gemacht werden, ohne viel Vorwissen Machine Learning Modelle anzusprechen, sie zu verbessern oder zu trainieren. Es sind einige Grundlagen in JavaScript nötig, die wir zu Beginn des Workshops anreißen werden. 
+ml5 basiert dabei auf einer anderer Library mit dem Namen [p5.js](https://p5js.org), welches im Department Design schon häufig in unterschiedlichsten Projekten zum Einsatz kam. Es richtet sich ähnlich wie ml5.js an Kreative, die keine großen Vorerfahrungen mit Code haben, aber trotzdem digitale Projekte umsetzen wollen. 
+Das tolle an beiden Librarys, ist das sie einfach direkt im Browser laufen und beide nicht viel Software brauchen. Es reicht ein Code Editor um direkt loszulegen. 
 Viele Beispiele basieren in diesem Workshop auf den Projekten von [Dan Shiffmann](https://shiffman.net) besonders seine YouTube Reihe über ml5.js sei hier erwähnt: [Link](https://www.youtube.com/watch?v=26uABexmOX4&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=1)
 
 ## Tag 1 _Getting Started
@@ -38,4 +38,4 @@ Dazu öffnen wir Visual Studio Code und klicken in der linken Spalte auf die vie
 ### Erste Schritte mit p5.js
 Wie schon erwähnt basiert ml5.js auf p5.js. Deshalb wollen wir uns dies zu erst anschauen, um dort die Grundlagen kennenzulernen. 
 Um in Visual Studio eine installierte Extension zu nutzen, müssen wir die Command Palette aufrufen. Drückt dazu die Tasen `command-shift-p` auf dem Mac bzw. `ctrl-shift-p` bei Windows. In das Suchfeld tippt ihr p5.js ein. Es sollten zwei Sachen vorgeschlagen werden `Install p5.js Contributor Library`, das brauchen wir später und `Create p5.js Library` das klicken wir an. 
-Jetzt öffnet sich über File-Browser, wo ihr einen neuen Ordner erstellt, in dem das Projekt erstellt werden soll. Mit einem klick auf `Fertig` werden für euch in diesem Ordner alle wichtigen Dateien erstellt, die wir brauchen. 
+Jetzt öffnet sich über File-Browser, wo ihr einen neuen Ordner erstellt, in dem das Projekt liegen soll. Mit einem klick auf `Fertig` werden für euch in diesem Ordner alle wichtigen Dateien erstellt, die wir brauchen. 
