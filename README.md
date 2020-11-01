@@ -30,21 +30,24 @@ Viele Beispiele basieren in diesem Workshop auf den Projekten von [Dan Shiffmann
 ## Tag 1 _Getting Started
 Willkommen zu Tag 1, wir wollen heute loslegen, indem wir uns das nötige Setup einrichten und verstehen was wir alles brauchen. 
 
-### Einkaufsliste 
+### Setup
+
+#### Einkaufsliste 
 * Code-Editor 
 * Browser
 * Link zu p5.js & ml5.js
 
-### Code-Editor
+#### Code-Editor
 Für das Programmieren kann jeder Code-Editor der Welt genutzt werden, es könnte sogar alles in TextEdit oder Word programmiert werden. 
 Ein guter Code-Editor gibt uns allerdings zugriff auf viele vereinfachende Funktionen. Ich nutze für diesen Workshop den Editor **Visual Studio Code** von Microsoft. Dieser ist weiterverbreitet und es gibt eine große Anzahl an Extensions, die wir nutzen können um uns das Leben noch einfacher zu machen. 
 
 Visual Studio Code könnt ihr hier für euer Betriebssystem herunterladen: [Link](https://code.visualstudio.com/download)
 
-### Browser 
+#### Browser 
 Als nächstes braucht ihr einen Browser, hier funktioniert eigentlich alles was Up-to-Date ist. Es macht auch immer mal Sinn Sachen in unterschiedlichen Browsern auszuprobieren, deshalb empfehle ich, dass ihr mindestens entweder [Chrome](https://www.google.com/chrome/) oder [Firefox](https://www.mozilla.org/de/firefox/new/) habt.
 
-### Link zu p5.js & ml5.js
+#### Link zu p5.js & ml5.js
 Um p5.js bzw. ml5.js nutzen zu können, müssen wir nichts weiter herunterladen. Wir müssen diese nur in unser Projekt verlinken. Wir machen es uns aber noch einfacher, den Visual Studio Code bietet sogar eine p5.js Extension an. 
-Dazu öffnen wir Visual Studio Code und klicken in der linken Spalte auf die vier Quadrate(1.) in das Suchfeld tippen wir »p5.js«(2.). Öffnet die Extension p5.vscode von Sam Lavigne und klickt Install(3.)
+Dazu öffnen wir Visual Studio Code und klicken in der linken Spalte auf die vier Quadrate(1.) in das Suchfeld tippen wir »p5.js«(2.). Öffnet die Extension p5.vscode von Sam Lavigne und klickt Install(3.) Jetzt haben wir alles was wir brauchen! 
 ![Download p5.js Extenstion](/readme_assets/download_p5_extenstion.png) 
+
