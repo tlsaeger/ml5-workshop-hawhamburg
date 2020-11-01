@@ -36,4 +36,5 @@ Dazu öffnen wir Visual Studio Code und klicken in der linken Spalte auf die vie
 ![Download p5.js Extenstion](/readme_assets/download_p5_extenstion.png) 
 
 ### Erste Schritte mit p5.js
-Wie schon erwähnt basiert ml5.js auf p5.js. Deshalb wollen wir uns dies zu erst anschauen, um dort 
+Wie schon erwähnt basiert ml5.js auf p5.js. Deshalb wollen wir uns dies zu erst anschauen, um dort die Grundlagen kennenzulernen. 
+Um in Visual Studio eine installierte Extension zu nutzen, müssen wir die Command Palette aufrufen. Drückt dazu die Tasen `command-shift-p` auf dem Mac bzw. `ctrl-shift-p` bei Windows. In das Suchfeld tippt ihr p5.js ein. Es sollten zwei Sachen vorgeschlagen werden `Install p5.js Contributor Library`, das brauchen wir später und `Create p5.js Library` das klicken wir an. 
