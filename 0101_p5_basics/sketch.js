@@ -1,8 +1,10 @@
 let canvasWidth = 800;
 let canvasHeight = 400;
+let img;
 
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
+  img = loadImage('assets/fussball.png');
 }
 
 function draw() {
@@ -14,8 +16,9 @@ function draw() {
   line(canvasWidth/2,0,canvasWidth/2,canvasHeight)
   fill(0,0,255)
   noStroke()
-  ellipse(mouseX,mouseY,25,25)
-  
+  imageMode(CENTER);
+  image(img, mouseX,mouseY, 50, 50);
+
   goal()
 }
 
