@@ -11,7 +11,7 @@ ml5 basiert dabei auf einer anderer Library mit dem Namen [p5.js](https://p5js.o
 Das tolle an beiden Librarys, ist das sie einfach direkt im Browser laufen und beide nicht viel Software brauchen. Es reicht ein Code Editor um direkt loszulegen. 
 Viele Beispiele basieren in diesem Workshop auf den Projekten von [Dan Shiffmann](https://shiffman.net) besonders seine YouTube Reihe über ml5.js sei hier erwähnt: [Link](https://www.youtube.com/watch?v=26uABexmOX4&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=1)
 
-## Tag 1 _Getting Started
+## Getting Started
 Willkommen zu Tag 1, wir wollen heute loslegen, indem wir uns das nötige Setup einrichten und verstehen was wir alles brauchen. 
 
 ### Setup
@@ -37,5 +37,10 @@ Dazu öffnen wir Visual Studio Code und klicken in der linken Spalte auf die vie
 
 ### Erste Schritte mit p5.js
 Wie schon erwähnt basiert ml5.js auf p5.js. Deshalb wollen wir uns dies zu erst anschauen, um dort die Grundlagen kennenzulernen. 
-Um in Visual Studio eine installierte Extension zu nutzen, müssen wir die Command Palette aufrufen. Drückt dazu die Tasen `command-shift-p` auf dem Mac bzw. `ctrl-shift-p` bei Windows. In das Suchfeld tippt ihr p5.js ein. Es sollten zwei Sachen vorgeschlagen werden `Install p5.js Contributor Library`, das brauchen wir später und `Create p5.js Library` das klicken wir an. 
-Jetzt öffnet sich über File-Browser, wo ihr einen neuen Ordner erstellt, in dem das Projekt liegen soll. Mit einem klick auf `Fertig` werden für euch in diesem Ordner alle wichtigen Dateien erstellt, die wir brauchen. 
+Um in Visual Studio eine installierte Extension zu nutzen, müssen wir die Command Palette aufrufen. Drückt dazu die Tasten `command-shift-p` auf dem Mac bzw. `ctrl-shift-p` bei Windows. In das Suchfeld tippt ihr p5.js ein. Es sollten zwei Sachen vorgeschlagen werden `Install p5.js Contributor Library`, das brauchen wir später und `Create p5.js Library` das klicken wir an. 
+Jetzt öffnet sich über File-Browser, wo ihr einen neuen Ordner erstellt, in dem das Projekt liegen soll. Mit einem klick auf `Fertig` werden für euch in diesem Ordner alle wichtigen Dateien erstellt, die wir brauchen. Jetzt haben wir den Standardaufbau eines p5.js Projekts erstellt. Um auch ml5.js ansprechen zu können, öffnen wir wieder die Command Palette (Mac: `command-shift-p` Windows: `ctrl-shift-p`) und such wieder nach p5.js, dieses Mal wählen wir `Install p5.js Contributor Library` und suchen nach ml5 über Enter und dann nochmal Enter auf `Install ml5.js` installieren wir auch ml5.js. 
+Um zu überprüfen ob alles geklappt hat, öffnen wir auf der linken Seite die Datei `index.html`. Wenn wir dort folgenden Code finden hat alles geklappt: 
+```html  
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/ml5.min.js"></script>```
