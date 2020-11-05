@@ -37,4 +37,5 @@ function gotResult(error, results) {
   console.log(results);
   createDiv('Label: ' + results[0].label);
   createDiv('Confidence: ' + nf(results[0].confidence, 0, 2));
+  
 }
