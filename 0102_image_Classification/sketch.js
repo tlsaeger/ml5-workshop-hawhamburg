@@ -16,7 +16,7 @@ let classifier;
 let img;
 
 function preload() {
-  classifier = ml5.imageClassifier('MobileNet');
+  classifier = ml5.imageClassifier('MobileNet', modelReady);
   img = loadImage('images/bird.jpg');
   console.log(classifier);
 }
@@ -25,6 +25,11 @@ function setup() {
   createCanvas(400, 400);
   classifier.classify(img, gotResult);
   image(img, 0, 0);
+}
+
+function modelReady(){
+  createDiv("Model ist geladen")
+  console.log("Model Geladen");
 }
 
 // A function to run when we get any errors and the results
@@ -36,6 +41,6 @@ function gotResult(error, results) {
   // The results are in an array ordered by confidence.
   console.log(results);
   createDiv('Label: ' + results[0].label);
-  createDiv('Confidence: ' + nf(results[0].confidence, 0, 2));
+  createDiv('Confidence: ' + results[0].confidence);
   
 }
