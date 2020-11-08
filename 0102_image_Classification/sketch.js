@@ -1,14 +1,3 @@
-// Copyright (c) 2019 ml5
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
-/* ===
-ml5 Example
-Image classification using MobileNet and p5.js
-This example uses a callback pattern to create the classifier
-=== */
-
 // Initialize the Image Classifier method with MobileNet. A callback needs to be passed.
 let classifier;
 
@@ -17,14 +6,14 @@ let img;
 
 function preload() {
   classifier = ml5.imageClassifier('MobileNet', modelReady);
-  img = loadImage('images/bird.jpg');
+  img = loadImage('images/peter.jpeg');
   console.log(classifier);
 }
 
 function setup() {
   createCanvas(400, 400);
   classifier.classify(img, gotResult);
-  image(img, 0, 0);
+  image(img, 0, 0,400,400);
 }
 
 function modelReady(){
