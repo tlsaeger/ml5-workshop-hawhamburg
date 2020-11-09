@@ -46,7 +46,7 @@ Um zu überprüfen ob alles geklappt hat, öffnen wir auf der linken Seite die D
 ```
 
 ### Zufallsmaler (0101)
-![Zufallsmaler Animation](/readme_assets/zufallsmaler.gif)
+![Zufallsmaler Animation] (/readme_assets/zufallsmaler.gif)
 Wir wollen mit unserem ersten p5.js Projekt starten, dies hat noch nichts mit Machine Learning zu tun, zeigt uns aber die Grundlagen wie der Code und p5.js funktioniert. 
 Wie ihr oben auf dem GIF seht, wollen wir dieses wunderbaren Zufallsmaler bauen. Mit der Maus bewegen wir den Pinsel, durch ein klick wird zufällig eine neue Farbe ausgewählt.
 Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. 
@@ -66,7 +66,19 @@ Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründ
 Zusammenfassend lernen wir in diesem Beispiel: 
 * Was ist die Konsole
 * Wie lädt man ein Bild?
-* Grundstruktur von p5.js vertiefen
-* Was sind Variablen vertiefen
-* Was sind Funktionen vertiefen
+* Grundstruktur von p5.js? (vertiefen)
+* Was sind Variablen? (vertiefen)
+* Was sind Funktionen? (vertiefen)
 
+
+### Image Classification (0103)
+![ml 5 Image Classier Image](/readme_assets/image-classifier.png) 
+
+In diesem Beispiel wollen wir uns erste Schritte mit ml5.js gehen. Dafür lernen wir wie man einzelne Aspekte der Library anspricht. Wie man ein geladenes Bild klassifiziert und die Resultate dann versteht und ausgibt.
+
+Zusammenfassend lernen wir in diesem Beispiel: 
+* Was ist ein Callback?
+* Wie funktioniert ml5.js?
+* Wie lesen wir die Ergebnisse aus einem Array?
+* Wie geben wir die Ergebnisse aus?
+ 
