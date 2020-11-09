@@ -50,15 +50,15 @@ Wir loggen uns die Varible in unsere Konsole um mal besser reinschauen zu könne
 Der Inhalt dieser Variablen ist nicht wie sonst immer eine Zahl oder Text, sondern ein so gennantets Aaray. 
 Diese enthalten nicht nur einen Wert sondern gleich mehrer. Wir wollen uns jetzt die für uns wichtigen 
 raussuchen und diesen dann auch ansprechen. 
-Schauen wir in der Konsole im Browser nach, sehen wir, dass dort ein Array ausgegben wurde. Dies hat 3 Einträge, 
+Schauen wir in der Konsole im Browser nach, sehen wir, dass dort ein Object ausgegben wurde. Dies hat 3 Einträge, 
 nummeriert von 0 bis 2, klicken wir und den klein Pfeil neben der 0, sehen wir dass es hier zwei weiter Einträge gibt. 
 confidence und label. In diesem Fall, des Vogel Bildes, liegt die confidence bei 0.928 und so weiter. 
 ml5 ist sich als zu ca. 93% sicher das auf dem Bild ein, ja was eigentlich abgebildt ist. Das sehen wir dann unter Label, 
 hier steht robin, American robin, Turdus migratorious. ml5 js ist sich also zu 93% sicher, dass es sich hierbei
 um einen robin, also zu deutsch ein Rotkehlchen handelt. 
-Gut aber das wolllen wir jetzt ja auch ausgeben. Dafür müssen wir diese Werte in dem Array ansprechen. Wie man 
+Gut aber das wolllen wir jetzt ja auch ausgeben. Dafür müssen wir diese Werte in dem Object ansprechen. Wie man 
 das macht sieht man schon auf den letzten zwei Zeilen der gotResults()-Funktion. 
-Zu erst wählen wir das erste Element aus dem Array also results[0] und dann den Wert für label also .label aus.
+Zu erst wählen wir das erste Element aus dem Object also results[0] und dann den Wert für label also .label aus.
 Daraus erstellen wir ein DIV also ein HTML Element und wiederholen das ganze mit dem confidence Level. Beide 
 Ausgaben beschreiben wir dann noch mit 'Label: ' bzw. 'Confidence: ' */
 function gotResult(error, results) {
