@@ -37,10 +37,13 @@ Wir machen hier eine sogennate if-Abfrage. Also ein Wenn das der Fall ist dann m
 Wenn meine Maus in der linken oberen Ecke ist, mach den Hintergrund blau. In unserem Beispiel fragen wir einfach, 
 Wenn die Maus gedrückt/geklickt wird, dann tu etwas. 
 Das etwas sehen wir dann auf der nächsten Zeile, wir setzten die Füllfarbe wieder auf einen neuen Zufallswert, wie schon 
-in der setup() Funktion. 
+in der setup() Funktion. Verlässt die Maus den Canvas, wird die Farbe auf weiß gesetzt und wir können radieren. 
    */
 function mouseClickFunction(){
 if (mouseIsPressed){
   fill(random(0,255),random(0,255), random(0,255));
+}
+else if(mouseX > 800){
+  fill(255);
 }
 };
