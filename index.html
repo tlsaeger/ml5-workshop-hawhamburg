@@ -1,0 +1,72 @@
+<h1 id="ml5-js-workshop">ml5.js Workshop</h1>
+<p><strong>HAW Hamburg Department Design</strong> 09.11. – 13.11.2020</p>
+<h2 id="intro">Intro</h2>
+<p>Im Rahmen des Kurses »Artifical Intelligence und Design &gt; aiXdesign« beschäftigen wir uns mit der Frage, wie Künstliche Intelligenz, das Design, sowie den Beruf der Designschaffenden verändern wird. Dazu wollen wir nicht nur forschend tätig sein und schauen, was es schon gibt. Sondern auch selber mit den Möglichkeiten der Künstlichen Intelligenz im speziellen des Machine Learnings experimentieren. In insgesamt drei verschiedenen Workshops, erkunden wir unterschiedliche Tools. 
+In diesem geht es um die JavaScript Library <a href="https://ml5js.org">ml5.js</a>. Auf dieser Seite findest du vor allem den Code der einzelnen Projekte. Dieser ist kommentiert und wird so erklärt. Um dem Code runterzuladen, klicke auf den grünen Button Code, ganz oben und dann auf Download ZIP. </p>
+<h3 id="ml5-js">ml5.js</h3>
+<p>ml5.js ist eine JavaScript Library, das sich zur Aufgabe gemacht hat »Friendly Machine Learning for the Web« bereitzustellen. Mit ml5 soll es kreativen Codern einfach gemacht werden, ohne viel Vorwissen Machine Learning Modelle anzusprechen, sie zu verbessern oder zu trainieren. Es sind einige Grundlagen in JavaScript nötig, die wir zu Beginn des Workshops anreißen werden. 
+ml5 basiert dabei auf einer anderer Library mit dem Namen <a href="https://p5js.org">p5.js</a>, welches im Department Design schon häufig in unterschiedlichsten Projekten zum Einsatz kam. Es richtet sich ähnlich wie ml5.js an Kreative, die keine großen Vorerfahrungen mit Code haben, aber trotzdem digitale Projekte umsetzen wollen. 
+Das tolle an beiden Librarys, ist das sie einfach direkt im Browser laufen und beide nicht viel Software brauchen. Es reicht ein Code Editor um direkt loszulegen. 
+Viele Beispiele basieren in diesem Workshop auf den Projekten von <a href="https://shiffman.net">Dan Shiffmann</a> besonders seine YouTube Reihe über ml5.js sei hier erwähnt: <a href="https://www.youtube.com/watch?v=26uABexmOX4&amp;list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&amp;index=1">Link</a></p>
+<h2 id="getting-started">Getting Started</h2>
+<p>Willkommen zu Tag 1, wir wollen heute loslegen, indem wir uns das nötige Setup einrichten und verstehen was wir alles brauchen. </p>
+<h3 id="setup">Setup</h3>
+<h4 id="einkaufsliste">Einkaufsliste</h4>
+<ul>
+<li>Code-Editor </li>
+<li>Browser</li>
+<li>Link zu p5.js &amp; ml5.js</li>
+</ul>
+<h4 id="code-editor">Code-Editor</h4>
+<p>Für das Programmieren kann jeder Code-Editor der Welt genutzt werden, es könnte sogar alles in TextEdit oder Word programmiert werden. 
+Ein guter Code-Editor gibt uns allerdings zugriff auf viele vereinfachende Funktionen. Ich nutze für diesen Workshop den Editor <strong>Visual Studio Code</strong> von Microsoft. Dieser ist weiterverbreitet und es gibt eine große Anzahl an Extensions, die wir nutzen können um uns das Leben noch einfacher zu machen. </p>
+<p>Visual Studio Code könnt ihr hier kostenlos für euer Betriebssystem herunterladen: <a href="https://code.visualstudio.com/download">Link</a></p>
+<h4 id="browser">Browser</h4>
+<p>Als nächstes braucht ihr einen Browser, hier funktioniert eigentlich alles was Up-to-Date ist. Es macht auch immer mal Sinn Sachen in unterschiedlichen Browsern auszuprobieren, deshalb empfehle ich, dass ihr mindestens entweder <a href="https://www.google.com/chrome/">Chrome</a> oder <a href="https://www.mozilla.org/de/firefox/new/">Firefox</a> habt.</p>
+<h4 id="link-zu-p5-js-ml5-js">Link zu p5.js &amp; ml5.js</h4>
+<p>Um p5.js bzw. ml5.js nutzen zu können, müssen wir nichts weiter herunterladen. Wir müssen diese nur in unser Projekt verlinken. Wir machen es uns aber noch einfacher, denn Visual Studio Code bietet sogar eine p5.js Extension an, diese beinhaltet auch ml5.js. 
+Dazu öffnen wir Visual Studio Code und klicken in der linken Spalte auf die vier Quadrate(1.), in das Suchfeld tippen wir »p5.js«(2.). Öffnet die Extension p5.vscode von Sam Lavigne und klickt Install(3.) Jetzt haben wir alles was wir brauchen! 
+<img src="/readme_assets/download_p5_extenstion.png" alt="Download p5.js Extenstion"> </p>
+<p>Wie schon erwähnt basiert ml5.js auf p5.js. Deshalb wollen wir uns dies zu erst anschauen, um dort die Grundlagen kennenzulernen. 
+Um in Visual Studio eine installierte Extension zu nutzen, müssen wir die Command Palette aufrufen. Drückt dazu die Tasten <code>command-shift-p</code> auf dem Mac bzw. <code>ctrl-shift-p</code> bei Windows. In das Suchfeld tippt ihr p5.js ein. Es sollten zwei Sachen vorgeschlagen werden <code>Install p5.js Contributor Library</code>, das brauchen wir später und <code>Create p5.js Library</code> das klicken wir an. 
+Jetzt öffnet sich über File-Browser, wo ihr einen neuen Ordner erstellt, in dem das Projekt liegen soll. Mit einem klick auf <code>Fertig</code> werden für euch in diesem Ordner alle wichtigen Dateien erstellt, die wir brauchen. Jetzt haben wir den Standardaufbau eines p5.js Projekts erstellt. Um auch ml5.js ansprechen zu können, öffnen wir wieder die Command Palette (Mac: <code>command-shift-p</code> Windows: <code>ctrl-shift-p</code>) und such wieder nach p5.js, dieses Mal wählen wir <code>Install p5.js Contributor Library</code> und suchen nach ml5 über Enter und dann nochmal Enter auf <code>Install ml5.js</code> installieren wir auch ml5.js. 
+Um zu überprüfen ob alles geklappt hat, öffnen wir auf der linken Seite die Datei <code>index.html</code>. Wenn wir dort folgenden Code finden hat alles geklappt: </p>
+<pre><code class="lang-html">    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"libraries/p5.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"libraries/p5.sound.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"libraries/ml5.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h3 id="zufallsmaler-0101-">Zufallsmaler (0101)</h3>
+<p>![Zufallsmaler Animation] (/readme_assets/zufallsmaler.gif)
+Wir wollen mit unserem ersten p5.js Projekt starten, dies hat noch nichts mit Machine Learning zu tun, zeigt uns aber die Grundlagen wie der Code und p5.js funktioniert. 
+Wie ihr oben auf dem GIF seht, wollen wir dieses wunderbaren Zufallsmaler bauen. Mit der Maus bewegen wir den Pinsel, durch ein klick wird zufällig eine neue Farbe ausgewählt.
+Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. </p>
+<p>Zusammenfassend lernen wir in diesem Beispiel: </p>
+<ul>
+<li>Grundstruktur von p5.js </li>
+<li>Was sind Variablen </li>
+<li>Was sind Funktionen </li>
+<li>Was ist if/else</li>
+</ul>
+<h3 id="der-fu-ballsimulator-0102-">Der Fußballsimulator (0102)</h3>
+<p><img src="/readme_assets/fussball_simulator_video.gif" alt="Fußballsimulator Animation"> </p>
+<p>Nun wollen wir diesen packenden Fußballsimulator bauen. Dieser vertieft noch einmal einige Konzepte und gibt uns die Sicherheit im nächsten Beispiel mit Machine Learning zu beginnen. 
+Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. </p>
+<p>Zusammenfassend lernen wir in diesem Beispiel: </p>
+<ul>
+<li>Was ist die Konsole</li>
+<li>Wie lädt man ein Bild?</li>
+<li>Grundstruktur von p5.js? (vertiefen)</li>
+<li>Was sind Variablen? (vertiefen)</li>
+<li>Was sind Funktionen? (vertiefen)</li>
+</ul>
+<h3 id="image-classification-0103-">Image Classification (0103)</h3>
+<p><img src="/readme_assets/image-classifier.png" alt="ml 5 Image Classier Image"> </p>
+<p>In diesem Beispiel wollen wir uns erste Schritte mit ml5.js gehen. Dafür lernen wir wie man einzelne Aspekte der Library anspricht. Wie man ein geladenes Bild klassifiziert und die Resultate dann versteht und ausgibt.
+Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. </p>
+<p>Zusammenfassend lernen wir in diesem Beispiel: </p>
+<ul>
+<li>Was ist ein Callback?</li>
+<li>Wie funktioniert ml5.js?</li>
+<li>Wie lesen wir die Ergebnisse aus einem Array?</li>
+<li>Wie geben wir die Ergebnisse aus?</li>
+</ul>
