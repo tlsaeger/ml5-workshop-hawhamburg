@@ -1,8 +1,14 @@
-// Initialize the Image Classifier method with MobileNet. A callback needs to be passed.
+/* ml5.js Workshop 
+HAW Hamburg Department Design 9.11.-13.11.2020 
+von Tom-Lucas Säger tlsaeger.de  */
+
 let classifier;
-// A variable to hold the image we want to classify
+// A variable to hold the video we want to classify
 let video;
+// We are loading an image to overlay once Tommy is detechted 
 let robot;
+
+// replace with your own model link
 let modelUrl = "https://teachablemachine.withgoogle.com/models/BssWL1D7m/";
 
 let label, lableCheck;
