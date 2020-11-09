@@ -2,7 +2,15 @@
 HAW Hamburg Department Design 9.11.-13.11.2020 
 von Tom-Lucas Säger tlsaeger.de  */
 
-/* Bei p5.js gibt finden wir immer diesen Standardaufbau. Es beginnt mit der Funktion setup()
+/* Bei p5.js gibt finden wir immer diesen Standardaufbau: 
+function setup(){
+Hier steht dann irgendwas
+};
+function draw(){
+Hier steht dann irgendwas
+};
+
+Es beginnt mit der Funktion setup()
 alles was wir hier definieren wird nur einmal ausgeführt. In unserem Fall geben wir hier an, 
 dass wir einen Canvas mit der Größe 800x800 Pixel erstellen wollen. Außerdem setzen wir die 
 Füllfarbe für alle Formen die wir zeichen erstmal in seinen drei Werten RGB, also Rot, Grün, Blau jeweils auf Zufall. 
