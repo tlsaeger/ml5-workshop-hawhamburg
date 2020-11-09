@@ -18,8 +18,7 @@ Außerdem sagen wir mit noStroke(), dass unsere Form keine Kontur haben sollen.
 */
 function setup() {
   createCanvas(800, 800);
-  // fill(random(0,255),random(0,255), random(0,255));
-  fill(0,0,255);
+  fill(random(0,255),random(0,255), random(0,255));
   noStroke()
 }
 /* Auch ein Teil des Standardaufbaus, ist die Funktion draw(), alles was hier passiert wird immer wieder ausgeführt.
