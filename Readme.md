@@ -47,6 +47,7 @@ Um zu überprüfen ob alles geklappt hat, öffnen wir auf der linken Seite die D
 
 ### Zufallsmaler (0101)
 ![Zufallsmaler Animation](/readme_assets/zufallsmaler.gif)
+
 Wir wollen mit unserem ersten p5.js Projekt starten, dies hat noch nichts mit Machine Learning zu tun, zeigt uns aber die Grundlagen wie der Code und p5.js funktioniert. 
 Wie ihr oben auf dem GIF seht, wollen wir dieses wunderbaren Zufallsmaler bauen. Mit der Maus bewegen wir den Pinsel, durch ein klick wird zufällig eine neue Farbe ausgewählt.
 Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. 
