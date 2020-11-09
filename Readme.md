@@ -3,7 +3,7 @@
 
 ## Intro 
 Im Rahmen des Kurses »Artifical Intelligence und Design > aiXdesign« beschäftigen wir uns mit der Frage, wie Künstliche Intelligenz, das Design, sowie den Beruf der Designschaffenden verändern wird. Dazu wollen wir nicht nur forschend tätig sein und schauen, was es schon gibt. Sondern auch selber mit den Möglichkeiten der Künstlichen Intelligenz im speziellen des Machine Learnings experimentieren. In insgesamt drei verschiedenen Workshops, erkunden wir unterschiedliche Tools. 
-In diesem geht es um die JavaScript Library [ml5.js](https://ml5js.org)
+In diesem geht es um die JavaScript Library [ml5.js](https://ml5js.org). Auf dieser Seite findest du vor allem den Code der einzelnen Projekte. Dieser ist kommentiert und wird so erklärt. Um dem Code runterzuladen, klicke auf den grünen Button Code, ganz oben und dann auf Download ZIP. 
 
 ### ml5.js 
 ml5.js ist eine JavaScript Library, das sich zur Aufgabe gemacht hat »Friendly Machine Learning for the Web« bereitzustellen. Mit ml5 soll es kreativen Codern einfach gemacht werden, ohne viel Vorwissen Machine Learning Modelle anzusprechen, sie zu verbessern oder zu trainieren. Es sind einige Grundlagen in JavaScript nötig, die wir zu Beginn des Workshops anreißen werden. 
