@@ -75,6 +75,7 @@ Zusammenfassend lernen wir in diesem Beispiel:
 ![ml 5 Image Classier Image](/readme_assets/image-classifier.png) 
 
 In diesem Beispiel wollen wir uns erste Schritte mit ml5.js gehen. Dafür lernen wir wie man einzelne Aspekte der Library anspricht. Wie man ein geladenes Bild klassifiziert und die Resultate dann versteht und ausgibt.
+Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. 
 
 Zusammenfassend lernen wir in diesem Beispiel: 
 * Was ist ein Callback?
