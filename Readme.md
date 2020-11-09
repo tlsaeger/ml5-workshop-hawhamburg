@@ -2,7 +2,7 @@
 **HAW Hamburg Department Design** 09.11. – 13.11.2020
 
 ## Intro 
-Im Rahmen des Kurses »Artifical Intelligence und Design aiXdesign« beschäftigen wir uns mit der Frage, wie Künstliche Intelligenz, das Design, sowie den Beruf der Designschaffenden verändern wird. Dazu wollen wir nicht nur forschend tätig sein und schauen, was es schon gibt. Sondern auch selber mit den Möglichkeiten der Künstlichen Intelligenz im speziellen des Machine Learnings experimentieren. In insgesamt drei verschiedenen Workshops, erkunden wir unterschiedliche Tools. 
+Im Rahmen des Kurses »Artifical Intelligence und Design > aiXdesign« beschäftigen wir uns mit der Frage, wie Künstliche Intelligenz, das Design, sowie den Beruf der Designschaffenden verändern wird. Dazu wollen wir nicht nur forschend tätig sein und schauen, was es schon gibt. Sondern auch selber mit den Möglichkeiten der Künstlichen Intelligenz im speziellen des Machine Learnings experimentieren. In insgesamt drei verschiedenen Workshops, erkunden wir unterschiedliche Tools. 
 In diesem geht es um die JavaScript Library [ml5.js](https://ml5js.org). Auf dieser Seite findest du vor allem den Code der einzelnen Projekte. Dieser ist kommentiert und wird so erklärt. Um dem Code runterzuladen, klicke auf den grünen Button Code, ganz oben und dann auf Download ZIP. 
 
 ### ml5.js 
@@ -45,19 +45,28 @@ Um zu überprüfen ob alles geklappt hat, öffnen wir auf der linken Seite die D
     <script src="libraries/ml5.min.js"></script>
 ```
 
-
-
-### Der Fußballsimulator (0102)
-![Fußballsimulator Animation](/readme_assets/fussball_simulator_video.gif) 
-
+### Zufallsmaler (0101)
+![Zufallsmaler Animation] (/readme_assets/zufallsmaler.gif)
 Wir wollen mit unserem ersten p5.js Projekt starten, dies hat noch nichts mit Machine Learning zu tun, zeigt uns aber die Grundlagen wie der Code und p5.js funktioniert. 
-Wie ihr oben auf dem GIF seht, wollen wir diesen packenden Fußballsimulator bauen. 
+Wie ihr oben auf dem GIF seht, wollen wir dieses wunderbaren Zufallsmaler bauen. Mit der Maus bewegen wir den Pinsel, durch ein klick wird zufällig eine neue Farbe ausgewählt.
 Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. 
 
 Zusammenfassend lernen wir in diesem Beispiel: 
 * Grundstruktur von p5.js 
 * Was sind Variablen 
 * Was sind Funktionen 
+* Was ist if/else
+
+### Der Fußballsimulator (0102)
+![Fußballsimulator Animation](/readme_assets/fussball_simulator_video.gif) 
+
+Nun wollen wir diesen packenden Fußballsimulator bauen. Dieser vertieft noch einmal einige Konzepte und gibt uns die Sicherheit im nächsten Beispiel mit Machine Learning zu beginnen. 
+Den Code dazu findest du hier auf GitHub, klick einfach ganz oben auf den Gründen Button Code und lade dir die Dateien als ZIP herunter. 
+
+Zusammenfassend lernen wir in diesem Beispiel: 
 * Was ist die Konsole
 * Wie lädt man ein Bild?
+* Grundstruktur von p5.js vertiefen
+* Was sind Variablen vertiefen
+* Was sind Funktionen vertiefen
 
