@@ -80,6 +80,21 @@ In diesem Beispiel wollen wir uns erste Schritte mit ml5.js gehen. Dafür lernen
 Zusammenfassend lernen wir in diesem Beispiel: 
 * Was ist ein Callback?
 * Wie funktioniert ml5.js?
-* Wie lesen wir die Ergebnisse aus einem Array?
+* Wie lesen wir die Ergebnisse aus einem Object?
 * Wie geben wir die Ergebnisse aus?
+
+
+### PoseNet Clown (0202)
+![ml 5 Image Classier Image](/readme_assets/red_nose.gif)  
+
+Heute ist der 10.11.2020 noch ein Tag bis Karneval und da durch Corona dieses Jahr wahrscheinlich eher weniger geht, holen wir uns den Karneval auf unsere Webcam und erstellen uns eine tolle Clownsnase, die unserer echten Nase folgt. 
+Und für alle die keine Lust auf Karneval haben, erstellen wir auch gleichzeitig eine niedlich Rudolf Nase für Weihnachten. 
+Das ganze läuft im Browser und als Hardware braucht ihr nur eine Webcam. 
+Den Code findet ihr wie immer hier Github ganz oben auf dem grünen Button Code und dann Download ZIP.
+
+Zusammenfassend lernen wir in diesem Beispiel: 
+* Wie lädt man PoseNet?
+* Wie lädt man das Webcam Bild?
+* Wie lesen wir die Ergebnisse aus einem Object? (Vertiefen)
+* Wie geben wir die Ergebnisse aus? (Vertiefen)
  
