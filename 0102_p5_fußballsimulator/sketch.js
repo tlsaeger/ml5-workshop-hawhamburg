@@ -49,7 +49,7 @@ Dafür bauen wir uns wieder eine eigene Funktion mit dem Namen goal().*/
 function draw() {
   background(0,255,0);
   rectMode(CENTER);
-  fill(255)
+  fill(255);
   rect(canvasWidth,canvasHeight/2,100,100)
   stroke(255);
   line(canvasWidth/2,0,canvasWidth/2,canvasHeight)
@@ -76,7 +76,6 @@ Happy Footballing!
 function goal(){
 if (mouseX > canvasWidth - 1 && mouseY > canvasHeight/2 - 50 && mouseY < canvasHeight/2 + 50){
   textSize(32);
-  fill(0,255,0);
   textAlign(CENTER);
   text('GOOOOOOOOOAL!',canvasWidth/2,canvasHeight/2);
 }
