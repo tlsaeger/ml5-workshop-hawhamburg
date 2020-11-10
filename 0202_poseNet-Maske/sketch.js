@@ -55,12 +55,16 @@ image(video, 0,0, 640, 480);
 
 /* Wir bleiben im Draw Loop und fragen hier nochmal ab ob die Variable pose auch einen Inhalt hat.
 Ist das der Fall erstellen wir uns drei neue Variblen noseX und noseY für die X/Y-Postion der Nase 
-und widthheight als Wert für die breite und Höhe unserer Nase.*/
+und widthheight als Wert für die breite und Höhe unserer Nase. Diese errechnen wir uns wiederrum aus 
+dem Abstand zwischen den beiden Augen, so könnnen wir die Nase etwas skalieren.*/
 
 if (pose){
-  noseX = pose.nose.x
-  noseY = pose.nose.y
-  widthheight = 50;
+  noseX = pose.nose.x;
+  noseY = pose.nose.y;
+  leftEyeX = pose.leftEye.x;
+  rightEyeX = pose.rightEye.x;
+  widthheight = (leftEyeX - rightEyeX) * 0.75;
+  console.log(widthheight);
 
   /* Wir geben der Nase eine schöne rote Farbe, entfernen die Kontur und setzen ihren Koordinatenursprung
   mit ellipseMode(CENTER) auf die Mitte der Ellipse. 
