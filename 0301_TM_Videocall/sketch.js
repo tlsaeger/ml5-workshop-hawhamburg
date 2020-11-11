@@ -26,7 +26,7 @@ zugreift.*/
 let classifier;
 let brbImage;
 let tommyImage;
-let imageModelURL = 'https://teachablemachine.withgoogle.com/models/VGXQ6K3Q4/' + 'model.json';
+let imageModelURL = 'https://teachablemachine.withgoogle.com/models/EQ1vdaXPs/' + 'model.json';
 
 /* Wir brauche außerdem noch ein paar Variablen für unser Video und 
 die Labels die wir später rausbekommen. */
@@ -93,12 +93,12 @@ function draw() {
 /* Wie weiter oben beschrieben, checken wir mit dieser Funktion, 
 welche Klasse TM erkennt, über unser Label, welches wir in der gotResults() Funktion
 erstellt haben. Ist die Klasse "Tommy", zeichne das Bild tommyImage, 
-ist die Klasse "BRB" (Heißt hier noch "Nicht", grund ist ein Bug im TM) zeichne das brbImage. */
+ist die Klasse "BRB" zeichne das brbImage. */
 function showGesture(){
   if(label == "Tommy"){
     image(tommyImage,0,0, width, height);
   }
-  else if(label == "Nichts"){
+  else if(label == "BRB"){
     image(brbImage,0,0, width,height);
   }
 
