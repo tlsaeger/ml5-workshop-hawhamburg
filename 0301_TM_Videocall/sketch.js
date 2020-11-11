@@ -1,20 +1,10 @@
-// Copyright (c) 2019 ml5
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
 
-/* ===
-ml5 Example
-Webcam Image Classification using a pre-trained customized model and p5.js
-This example uses p5 preload function to create the classifier
-=== */
 
 // Classifier Variable
 let classifier;
-let helloImage;
-let partyImage;
-let peaceImage;
-let imageModelURL = 'https://teachablemachine.withgoogle.com/models/QwDFOIO8g/' + 'model.json';
+let brbImage;
+let tommyImage;
+let imageModelURL = 'https://teachablemachine.withgoogle.com/models/e_YE7eCAp/' + 'model.json';
 
 // Video
 let video;
@@ -25,9 +15,8 @@ let label = "";
 // Load the model first
 function preload() {
   classifier = ml5.imageClassifier(imageModelURL);
-  helloImage = loadImage('img/hallo.png');
-  peaceImage = loadImage('img/peace.png');
-  partyImage = loadImage('img/party.png')
+  brbImage = loadImage('img/brb.png');
+  tommyImage = loadImage('img/tommy.png');
 }
 
 function setup() {
@@ -36,7 +25,6 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(width, height);
   video.hide();
-  //video.hide();
 
   flippedVideo = ml5.flipImage(video)
   // Start classifying
@@ -52,20 +40,17 @@ function draw() {
 
 // Get a prediction for the current video frame
 function classifyVideo() {
-  flippedVideo = ml5.flipImage(video)
+  flippedVideo = ml5.flipImage(video);
   classifier.classify(flippedVideo, gotResult);
 }
 
 function showGesture(){
   //console.log(label)
-  if(label == "Party"){
-    image(partyImage,0,0);
+  if(label == "Tommy"){
+    image(tommyImage,0,0);
   }
-  else if (label == "Peace"){
-    image(peaceImage,0,0);
-  }
-  else if(label == "Background"){
-    image(helloImage,0,0);
+  else if(label == "Nichts"){
+    image(brbImage,0,0);
   }
 
 }
