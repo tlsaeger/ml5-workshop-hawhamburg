@@ -99,5 +99,9 @@ Zusammenfassend lernen wir in diesem Beispiel:
 * Wie geben wir die Ergebnisse aus? (Vertiefen)
 
 
-### TeachbleMachine Videocall  (0301)
+### Teachable Machine Videocall  (0301)
 ![ml 5 Image Classier Image](/readme_assets/videocall_gesture.gif)  
+
+In der heutigen Lektion starten wir nicht direkt im Code, sondern trainieren erstmal unser eigenes ML Model. Dafür nutzen wir die von Google bereitgestellte Plattform [Teachable Machine](https://teachablemachine.withgoogle.com). Dort können wir mit unsere Webcam nutzen um mehrere Klassen zu erstellen. Für unser Beispiel erstellen wir eine Klasse Person ist da, dort machen wir Bilder von uns und Person ist weg, da machen wir Bilder vom Hintergrund ohne uns. Wir exportieren das Model und können es dann in unseren Code einbinden. 
+Den Code findet ihr wie immer über den grünen Code Button ganz oben auf dieser Seite. 
+In diesem Beispiel vertiefen wir bekannte Konzepte und wenden diese neu an. 
