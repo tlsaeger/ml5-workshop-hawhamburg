@@ -116,3 +116,10 @@ Zusammenfassend lernen wir in diesem Beispiel:
 * Grundzüge eines Neuronalen-Netzwerkes
 * Was ist ein Epoch?
 * Was ist Loss?
+
+### Open Workshop
+
+Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren. Nachfolgend findet ihr einige der Ergebnisses des Workshops: 
+
+#### Benjamin Bertram — Corona App 2.0
+![Corona App 2.0 Image](/readme_assets/benjamin.gif) 
