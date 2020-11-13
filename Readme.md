@@ -123,3 +123,25 @@ Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren.
 
 #### Benjamin Bertram — Corona App 2.0
 ![Corona App 2.0 Image](/readme_assets/benjamin.gif) 
+
+#### Bennet Möller — Corona-Konformes Karneval 
+![Corona-Konformes Karneval Image](/readme_assets/bennet.gif) 
+
+#### Frederik Engelbrecht — Webcam Gimbal 
+![Webcam Gimbal  Image](/readme_assets/frederik.gif) 
+
+#### Pajam Kordian — Face2Snake 
+![Face2Snake Gimbal  Image](/readme_assets/pajam.gif) 
+
+#### Friderike Höft — Klorollenkönigin 
+![Klorollenkönigin  Image](/readme_assets/frida.gif)
+
+#### Kim Laßen — Horrorsnowflakes 
+![Horrorsnowflakes  Image](/readme_assets/kim.gif)
+
+#### Charleen König — Hau Rein!
+![Hau Rein Image](/readme_assets/charleen.gif)
+
+### Vielen Dank!
+
+Danke an alle Beteiligten! 
