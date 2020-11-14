@@ -121,6 +121,9 @@ Zusammenfassend lernen wir in diesem Beispiel:
 
 Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren. Nachfolgend findet ihr einige der Ergebnisses des Workshops: 
 
+#### Friderike Höft — Klorollenkönigin (0501)
+![Klorollenkönigin  Image](/readme_assets/frida.gif)
+
 #### Benjamin Bertram — Corona App 2.0
 ![Corona App 2.0 Image](/readme_assets/benjamin.gif) 
 
@@ -132,9 +135,6 @@ Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren.
 
 #### Pajam Kordian — Face2Snake 
 ![Face2Snake Gimbal  Image](/readme_assets/pajam.gif) 
-
-#### Friderike Höft — Klorollenkönigin 
-![Klorollenkönigin  Image](/readme_assets/frida.gif)
 
 #### Kim Laßen — Horrorsnowflakes 
 ![Horrorsnowflakes  Image](/readme_assets/kim.gif)
