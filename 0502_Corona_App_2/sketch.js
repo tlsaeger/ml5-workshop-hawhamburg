@@ -14,13 +14,22 @@ let poseNet;
 let pose;
 let nx;
 let ny;
+let earx;
+let eary;
 let corona;
+let today = new Date();
+let dd = String(today.getDate()).padStart(2, '0')-5;
+let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+let yyyy = today.getFullYear();
 
-fetch("https://covid-19-statistics.p.rapidapi.com/reports/total?date=2020-04-07", {
+today = yyyy + '-' + dd + '-' + mm; 
+document.write(today);
+
+
+fetch("https://covid-19-statistics.p.rapidapi.com/reports/total?date=" + today, {
   "method": "GET",
   "headers": {
-    /* Insert your API KEY here */
-    "x-rapidapi-key":  "MY_API_KEY",
+    "x-rapidapi-key": "your radom api key", //put your rapidapi key here
     "x-rapidapi-host": "covid-19-statistics.p.rapidapi.com"
   }
 })
@@ -80,6 +89,16 @@ function modelLoaded(){
   createDiv("Model geladen");
 }
 
+function gotPoses(results){
+  if(results.length > 0){
+  console.log(results);
+  pose = results[0].pose;
+  nx = pose.nose.x
+  ny = pose.nose.y
+  earx = pose.leftEar.x
+  eary = pose.leftEar.y
+}
+}
 function showGesture(){
   if(label == "Maske auf"){
     fill(255, 255, 255);
@@ -94,16 +113,5 @@ function showGesture(){
     image(img1,nx,ny+40,280,190);
     image(img2,earx+20,eary,90,90);
     imageMode(CORNER)
-}
-}
-
-function gotPoses(results){
-  if(results.length > 0){
-  console.log(results);
-  pose = results[0].pose;
-  nx = pose.nose.x
-  ny = pose.nose.y
-  eary = pose.leftEar.y
-  earx = pose.leftEar.x
 }
 }
