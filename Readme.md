@@ -124,7 +124,7 @@ Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren.
 #### [Friderike Höft](https://www.instagram.com/frida_futura/) — Klorollenkönigin (0501)
 ![Klorollenkönigin  Image](/readme_assets/frida.gif)
 
-#### [Benjamin Bertram](https://www.benjaminbertram.de) — Corona App 2.0 (0502)
+#### [Benjamin Bertram](http://www.benjaminbertram.de) — Corona App 2.0 (0502)
 ![Corona App 2.0 Image](/readme_assets/benjamin.gif) 
 
 #### Bennet Möller — Corona-Konformes Karneval 
