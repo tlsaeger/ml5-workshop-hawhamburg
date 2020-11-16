@@ -121,10 +121,10 @@ Zusammenfassend lernen wir in diesem Beispiel:
 
 Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren. Nachfolgend findet ihr einige der Ergebnisses des Workshops: 
 
-#### Friderike Höft — Klorollenkönigin (0501)
+#### [Friderike Höft](https://www.instagram.com/frida_futura/) — Klorollenkönigin (0501)
 ![Klorollenkönigin  Image](/readme_assets/frida.gif)
 
-#### Benjamin Bertram — Corona App 2.0
+#### Benjamin Bertram — Corona App 2.0 (0502)
 ![Corona App 2.0 Image](/readme_assets/benjamin.gif) 
 
 #### Bennet Möller — Corona-Konformes Karneval 
