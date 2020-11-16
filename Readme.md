@@ -3,14 +3,13 @@
 
 ## Inhaltsverzeichnis:
 
-1. [**Intro**](#intro)
-1. [**Getting Started**](#getting-started)
-1. [**Getting Started**](#getting-started)
-1. [**Tag 1**](#zufallsmaler-0101)
-1. [**Tag 2**](#nosenet-clown-0201)
-1. [**Tag 3**](#teachable-machine-video-call--0301)
-1. [**Tag 4**](#neural-network--0401)
-1. [**Tag 5**](#open-workshop)
+- [**Intro**](#intro)
+- [**Getting Started**](#getting-started)
+- [**Tag 1**](#zufallsmaler-0101)
+- [**Tag 2**](#nosenet-clown-0201)
+- [**Tag 3**](#teachable-machine-video-call--0301)
+- [**Tag 4**](#neural-network--0401)
+- [**Tag 5**](#open-workshop)
 
 ## Intro 
 Im Rahmen des Kurses »[Artifical Intelligence und Design | aiXdesign](http://aixdesign.space)« beschäftigen wir uns mit der Frage, wie Künstliche Intelligenz, das Design, sowie den Beruf der Designschaffenden verändern wird. Dazu wollen wir nicht nur forschend tätig sein und schauen, was es schon gibt. Sondern auch selber mit den Möglichkeiten der Künstlichen Intelligenz im speziellen des Machine Learnings experimentieren. In insgesamt drei verschiedenen Workshops, erkunden wir unterschiedliche Tools. 
