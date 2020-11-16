@@ -1,7 +1,7 @@
 # ml5.js Workshop 
 **HAW Hamburg Department Design** 09.11. – 13.11.2020
 
-## Inhaltsverzeichnis:
+## Inhaltsverzeichnis
 
 - [**Intro**](#intro)
 - [**Getting Started**](#getting-started)
