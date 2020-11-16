@@ -137,6 +137,9 @@ Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren.
 #### [Benjamin Bertram](http://www.benjaminbertram.de) — Corona App 2.0 (0502)
 ![Corona App 2.0 Image](/readme_assets/benjamin.gif) 
 
+#### [Charleen König](https://www.charleenkoenig.de) — Hau Rein! (0503)
+![Hau Rein Image](/readme_assets/charleen.gif)
+
 #### Bennet Möller — Corona-Konformes Karneval 
 ![Corona-Konformes Karneval Image](/readme_assets/bennet.gif) 
 
@@ -148,9 +151,6 @@ Am letzten Tag öffnen wir unseren Workshop und jeder kann frei experimentieren.
 
 #### Kim Laßen — Horrorsnowflakes 
 ![Horrorsnowflakes  Image](/readme_assets/kim.gif)
-
-#### Charleen König — Hau Rein!
-![Hau Rein Image](/readme_assets/charleen.gif)
 
 ### Vielen Dank!
 
