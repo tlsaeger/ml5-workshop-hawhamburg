@@ -5,7 +5,7 @@
 
 - [**Intro**](#intro)
 - [**Getting Started**](#getting-started)
-- [**Tag 1** – Zufallsmaler + 2](#zufallsmaler-0101)
+- [**Tag 1** – Zufallsmaler, Fußballsimulator, Image Classification ](#zufallsmaler-0101)
 - [**Tag 2** – NoseNet Clown](#nosenet-clown-0201)
 - [**Tag 3** – Teachable Machine Video Call](#teachable-machine-video-call--0301)
 - [**Tag 4** – Neural Network](#neural-network--0401)
