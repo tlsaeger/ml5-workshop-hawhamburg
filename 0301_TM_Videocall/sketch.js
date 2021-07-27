@@ -26,6 +26,7 @@ zugreift.*/
 let classifier;
 let brbImage;
 let tommyImage;
+let mute;
 let imageModelURL = 'https://teachablemachine.withgoogle.com/models/EQ1vdaXPs/' + 'model.json';
 
 /* Wir brauche außerdem noch ein paar Variablen für unser Video und 
@@ -37,20 +38,20 @@ let label = "";
 /* Wir laden das Model, geben diesem unsere URL von TM mit, 
 heute lassen wir den Callback mal weg. Dann laden wir unsere beiden 
 Bilder, wenn TM die Klassen erkennt. Diese müssen wir natürlich erstellen. 
-Dafür können wir z.B. Photoshop nutzen. Am besten wählen wir die gleiche Größe wie 
-unser Canvas also 640x480*/
+Dafür können wir z.B. Photoshop nutzen. Am besten wählen wir die gleiche Größe wie unser Canvas also 640x480*/
 function preload() {
   classifier = ml5.imageClassifier(imageModelURL);
   brbImage = loadImage('img/brb.png');
   tommyImage = loadImage('img/tommy.png');
+  mute = loadImage('img/mute.png');
 }
 /* Im Setup erstellen wir unseren Canvas und laden über createCapture(VIDEO) die Webcam. 
 Wir passen die größe mit video.size() an und hiden das ganze dann wieder.  
 Als letztes starten wir unsere classifVideo() Funktion. */
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(1280, 720);
   video = createCapture(VIDEO);
-  video.size(width, height);
+  video.size(160, 120);
   video.hide();
   classifyVideo();
 }
@@ -63,7 +64,6 @@ Wir schmeißen wieder unserern classifier an geben diesen unser flippedVideo und
 function classifyVideo() {
   flippedVideo = ml5.flipImage(video);
   classifier.classify(flippedVideo, gotResult);
-  
 }
 
 /*In unserem gotResults() Callback, definieren wir zu erst, 
@@ -78,6 +78,7 @@ function gotResult(error, results) {
   }
   // The results are in an array ordered by confidence.
   label = results[0].label;
+  console.log(label);
   // Classifiy again!
   classifyVideo();
 }
@@ -86,6 +87,7 @@ function gotResult(error, results) {
 Und führen die Funktion showGesture() aus diese definieren gleich und sie checkt, 
 welche Klasse gerade von TM ausgegeben wir und zeichnet dann das ensprechende Bild.    */
 function draw() {
+  // background(0,255,0);
   image(flippedVideo, 0, 0);
   showGesture();
 }
@@ -100,6 +102,9 @@ function showGesture(){
   }
   else if(label == "BRB"){
     image(brbImage,0,0, width,height);
+  }
+  else if(label == "On Mute"){
+    image(mute,0,0, width,height);
   }
 
 }
